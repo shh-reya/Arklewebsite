@@ -1,0 +1,133 @@
+.section2{
+    height: 810px;
+}
+.img-sec2{
+   width: 50%;
+   display: block;
+   background-color: rgb(227, 226, 230)
+
+}
+.img-sec2 img{
+    width: 100%;
+}
+.sec2part2{
+    width: 50%;
+    z-index: 1;
+    background-color: var(--primary-color);
+}
+.sec-p1{
+    padding: 8%;
+    background-color: rgb(227, 226, 230);
+}
+.sec-p2{
+    z-index: 1;
+    background-color: var(--primary-color);
+}
+.sec-p2 img{
+width: 20%;
+padding:5%;
+margin: 0;
+
+}
+.con1{
+    padding-top: 8%;
+    display: flex;
+    border-bottom: 1px solid white;
+}
+.sec-3{
+ background-color: var(--secondary-color);
+ color: var(--primary-color);
+ padding: 5%;
+ margin-top: -30px;
+ padding-left: 15%;
+}
+.sec-4{
+    padding:5% 0 0 5%;
+    background-color:rgb(227, 226, 230);
+
+}
+.sec-5-01{
+ width: 50%;
+}
+.sec-5-1{
+    border: 8px solid var(--border-color);
+}
+.sec-5-2{
+    padding: 2%;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+.sec-5-4{
+    padding: 6%;
+}
+.no{
+    color: var(--border-color);
+}
+.sec-6{
+    width: 33.3%;
+    height: 400px;
+    transition: all 3s ease-in-out;
+    opacity: 0.7;
+    justify-content: center;
+    padding: 2%;
+    padding-top: 18%;
+
+}
+.sec-6:hover{
+    scale: 1.03;
+    opacity: 1;
+}
+.a{
+    background-image:url(https://cdn.pixabay.com/photo/2015/01/08/18/26/man-593333_1280.jpg) ;
+    background-size: cover;
+}
+.b{
+    background-image: url(https://cdn.pixabay.com/photo/2015/01/12/10/45/man-597178_1280.jpg);
+    background-size: cover;
+}
+.c{
+    background-image: url(https://cdn.pixabay.com/photo/2015/07/17/22/43/student-849824_1280.jpg);
+    background-size: cover;
+}
+.sec-5-021{
+    
+    border: 8px solid rgb(227, 226, 230) ;
+}
+.sec-7{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    padding: 20%;
+    background-image: url(../assets/home-contact.jpg);
+    background-size: contain;
+}
+@media screen and (max-width:498px){
+    .con1{
+        flex-direction: column;
+    }
+    .section2{
+        display: flex;
+        flex-direction: column;
+    }
+    .img-sec2{
+        width: 100%;
+    }
+    .sec2part2{
+        width: 100%;
+    }
+    .sec-4 img{
+        width: 100%;
+    }
+    .sec-5-01{
+        width: 100%;
+    }
+    .sec-6{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .sec{
+        flex-direction: column;
+    }
+}

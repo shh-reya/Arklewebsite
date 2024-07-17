@@ -1,0 +1,36 @@
+.foot{
+    border-top: 1px solid var(--primary-color);
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    justify-content: space-between;
+    padding: 2%;
+}
+.foot p:hover{
+  color: var(--border-color);
+}
+.foot-1 a{
+    color: var(--primary-color);
+    padding: 1%;
+}
+.foot i:hover{
+    color: var(--border-color);
+
+}
+.foot-2{
+    padding-top:12% ;
+}
+.foot-2 a{
+    text-decoration: none;
+    color: var(--primary-color);
+}
+.foot-02{
+    color:var(--primary-color);
+    padding: 2%;
+    background-color: var(--secondary-color);
+    border-top: 1px solid;
+}
+@media screen and (max-width:498px){
+    .foot{
+      flex-direction: column;
+    }
+}
