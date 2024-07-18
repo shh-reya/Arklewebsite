@@ -7,6 +7,7 @@ import Capability from './Pages/Capability'
 import Career from './Pages/Career'
 import ContactUs from './Pages/ContactUs'
 import Login from './Pages/Login'
+import AdminPanel from './Admin/AdminPanel'
 
 function App() {
    return (
@@ -19,6 +20,7 @@ function App() {
         <Route path='/career' element={<Career/>}/>
         <Route path='/contactus' element={<ContactUs/>}/>
         <Route path='/login' element={<Login/>}/>
+        <Route path='/admin' element={<AdminPanel/>}/>
       </Routes>
     </>
   )
