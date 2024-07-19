@@ -27,9 +27,7 @@ const Home = () => {
       {/* section-2 */}
       <div className='flex section2'>
         <div className='img-sec2'>
-          <img src='https://cdn.pixabay.com/photo/2023/04/02/18/21/ai-generated-7895198_1280.jpg'/>
-          <center><h1>Path To Success!!</h1></center>
-          <img src='https://media.istockphoto.com/id/1502896527/photo/office-meeting-and-documents-of-business-people-clients-or-team-for-taxes-audit-or-revenue.webp?b=1&s=612x612&w=0&k=20&c=WWBYFS81Q2bpfpf6F5Zm9memrmgUNai1Q6PL445Zeqw='></img>
+          <img src='https://cdn.pixabay.com/photo/2015/05/22/19/41/consultant-779590_1280.jpg'/>
         </div>
         <div className='sec2part2'>
           <div className='sec-p1'>
